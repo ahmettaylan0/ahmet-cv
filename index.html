@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Taylan | Portfolyo</title>
+    <meta name="description" content="Ahmet Taylan'ın kişisel portfolyo ve özgeçmiş web sitesi.">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ahmet</a>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#experience">Deneyim & Eğitim</a></li>
+                <li><a href="#skills">Yetenekler</a></li>
+                <li><a href="#contact" class="btn-contact">İletişim</a></li>
+                <!-- Theme Toggle Button -->
+                <li class="theme-toggle-wrapper">
+                    <button id="theme-toggle" aria-label="Temayı Değiştir">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="greeting">Merhaba, Ben</h2>
+            <h1 class="name">Ahmet Taylan</h1>
+            <h3 class="title">Bilgisayar Programcısı</h3>
+            <p class="summary">Bilgisayar programcılığı mezunu, sürekli öğrenmeye ve temiz kod yazmaya tutkulu bir
+                yazılım geliştiriciyim. Karmaşık problemleri basit çözümlere kavuşturmayı seviyorum.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">İletişime Geç</a>
+                <a href="#about" class="btn btn-secondary">Daha Fazla Bilgi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Bilgisayar programcılığı alanında eğitimimi tamamlamış, yazılım geliştirme
+                        konusunda kendini sürekli geliştiren bir geliştiriciyim. Problem çözme yeteneği
+                        güçlü, araştırmaya ve öğrenmeye açık bir yapıya sahibim. Takım çalışmasına
+                        uyumlu, sorumluluk alabilen ve disiplinli bir çalışma anlayışını benimsiyorum.
+                    </p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>at3214885@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0 545 740 6886</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Deneyim & Eğitim</h2>
+            <div class="timeline-container">
+
+                <!-- Education -->
+                <div class="timeline-column">
+                    <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Eğitim</h3>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025 - Şu an</div>
+                        <h4 class="timeline-title">Ön Lisans</h4>
+                        <p class="timeline-subtitle">Dumlupınar Üniversitesi</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2024</div>
+                        <h4 class="timeline-title">Lise</h4>
+                        <p class="timeline-subtitle">Manisa/Salihli Merkez Anadolu Lisesi</p>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="timeline-column">
+                    <h3 class="column-title"><i class="fas fa-briefcase"></i> Deneyim</h3>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h4 class="timeline-title">Garson</h4>
+                        <p class="timeline-subtitle">Park Vallis Restaurant</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2024</div>
+                        <h4 class="timeline-title">Garson</h4>
+                        <p class="timeline-subtitle">Narlıbahçe Düğün Salonu</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Yetenekler</h2>
+
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <h3 class="category-title">Yazılım Dilleri & Teknolojiler</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-code"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-window-maximize"></i>
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Yabancı Dil</h3>
+                    <div class="language-skill">
+                        <div class="lang-info">
+                            <span class="lang-name">İngilizce</span>
+                            <span class="lang-level">Orta</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">İletişime Geç</h2>
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h3>Bir projeniz mi var?</h3>
+                    <p>Benimle çalışmak isterseniz veya herhangi bir sorunuz varsa aşağıdaki formu doldurarak iletişime
+                        geçebilirsiniz. En kısa sürede size geri dönüş yapacağım.</p>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" required placeholder="Ahmet Taylan">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" required placeholder="ornek@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Mesajınızın Konusu">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Mesajınızı buraya yazın..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Gönder</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message hidden">Mesajınız başarıyla gönderildi!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">logo.png</div>
+            <p class="footer-text">© 2026 Ahmet Taylan. Tüm hakları saklıdır.</p>
+
+            <div class="social-links">
+                <a href="https://linkedin.com/in/ahmet-taylan-78725a3b0/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ahmettaylan0" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/ahmet_taylan1" target="_blank" rel="noopener noreferrer"
+                    aria-label="(Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/ahmet_taylannnn" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
